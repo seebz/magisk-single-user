@@ -1,0 +1,7 @@
+id=single-user
+name=Single User Mod
+version=v1.0
+versionCode=100
+author=Seebz
+description=Disable the multi-users feature.
+template=4

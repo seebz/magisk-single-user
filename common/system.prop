@@ -1,0 +1,7 @@
+# This file will be read by resetprop
+
+# Remove multi-users feature
+fw.max_users=1
+
+# Hide Users from Settings
+fw.show_multiuserui=0
