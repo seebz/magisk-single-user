@@ -21,6 +21,10 @@ It also removes the _guest account_ to keep our devices more secure.
 
 ## Changelog
 
+### v1.2
+
+* Work now without 'late_start service script'
+
 ### v1.1
 
 * Cosmetic changes

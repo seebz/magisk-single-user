@@ -38,7 +38,7 @@ PROPFILE=true
 POSTFSDATA=false
 
 # Set to true if you need late_start service script
-LATESTARTSERVICE=true
+LATESTARTSERVICE=false
 
 ##########################################################################################
 # Installation Message
@@ -83,6 +83,9 @@ REPLACE="
 set_permissions() {
   # Default permissions, don't remove them
   set_perm_recursive  $MODPATH  0  0  0755  0644
+
+  # Run the `run_once.sh` script
+  sh $MODPATH/common/run_once.sh
 
   # Only some special files require specific permissions
   # The default permissions should be good enough for most cases
