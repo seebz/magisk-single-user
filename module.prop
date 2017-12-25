@@ -4,4 +4,4 @@ version=v1.3
 versionCode=103
 author=Seebz
 description=Disables the multiple users feature.
-template=1410
+minMagisk=1500
