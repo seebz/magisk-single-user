@@ -87,7 +87,7 @@ set_permissions() {
   set_perm_recursive  $MODPATH  0  0  0755  0644
 
   # Run the `run_once.sh` script
-  sh $MODPATH/common/run_once.sh
+  /system/bin/sh $MODPATH/common/run_once.sh
 }
 
 ##########################################################################################

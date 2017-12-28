@@ -21,6 +21,10 @@ It also removes the _guest account_ to keep our devices more secure.
 
 ## Changelog
 
+### v1.4
+
+* Update to template v1500 (Magisk v15.0)
+
 ### v1.3
 
 * Update to template v1400 (Magisk v14.0)

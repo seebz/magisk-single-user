@@ -1,7 +1,7 @@
 id=single-user
 name=Single User Mod
-version=v1.3
-versionCode=103
+version=v1.4
+versionCode=104
 author=Seebz
 description=Disables the multiple users feature.
 minMagisk=1500
