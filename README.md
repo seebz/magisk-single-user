@@ -21,25 +21,23 @@ It also removes the _guest account_ to keep our devices more secure.
 
 ## Changelog
 
-### v1.4
+**v1.5**  
+Update to template v17000 (Magisk v17.0)
 
-* Update to template v1500 (Magisk v15.0)
+**v1.4**  
+Update to template v1500 (Magisk v15.0)
 
-### v1.3
+**v1.3**  
+Update to template v1400 (Magisk v14.0)
 
-* Update to template v1400 (Magisk v14.0)
+**v1.2**  
+Works now without 'late_start service script'
 
-### v1.2
+**v1.1**  
+Cosmetic changes
 
-* Work now without 'late_start service script'
-
-### v1.1
-
-* Cosmetic changes
-
-### v1.0
-
-* First release
+**v1.0**  
+First release
 
 
 [Magisk]:  https://forum.xda-developers.com/apps/magisk
