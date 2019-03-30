@@ -1,6 +1,6 @@
 id=single-user
 name=Single User Mod
-version=v1.5
-versionCode=105
+version=v1.6
+versionCode=106
 author=Seebz
-description=Disables the multiple users feature.
+description=Disables the multiple users feature, including the guest account.
