@@ -1,10 +1,13 @@
 #!/system/bin/sh
-# Please don't hardcode /magisk/modname/... ; instead, please use $MODDIR/...
-# This will make your scripts compatible even if Magisk change its mount point in the future
+# Do NOT assume where your module will be located.
+# ALWAYS use $MODDIR if you need to know where this script
+# and module is placed.
+# This will make sure your module will still work
+# if Magisk change its mount point in the future
 MODDIR=${0%/*}
 
 # This script will be executed once during installation
-# It is called inside the `set_permissions` function in `config.sh`
+# It is called inside the `on_install` function in `install.sh`
 
 # Disable guest user
 settings put global guest_user_enabled 0

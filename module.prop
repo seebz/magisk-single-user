@@ -4,4 +4,3 @@ version=v1.5
 versionCode=105
 author=Seebz
 description=Disables the multiple users feature.
-minMagisk=17000
