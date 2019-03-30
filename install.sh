@@ -132,11 +132,11 @@ print_modname() {
 on_install() {
   # The following is the default implementation: extract $ZIPFILE/system to $MODPATH
   # Extend/change the logic to whatever you want
-  ui_print "- Extracting module files"
-  unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
+  # ui_print "- Extracting module files"
+  # unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
 
-  # Run the `run_once.sh` script
-  /system/bin/sh $MODPATH/common/run_once.sh
+  ui_print "- Applying global settings"
+  settings put global guest_user_enabled 0
 }
 
 # Only some special files require specific permissions
